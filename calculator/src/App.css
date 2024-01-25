@@ -1,0 +1,75 @@
+.parent-div{
+  display: flex;
+  gap: 10rem;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    margin-top: 12rem;
+}
+.second-parent-div{
+  display: flex;
+    gap: 7rem;
+}
+.amount{
+  margin-top: 2rem;
+  color: darkcyan;
+}
+.form-control{
+  padding: 5px;
+    background: aliceblue;
+    border: none;
+}
+.btn-style{
+  display: flex;
+    gap: 10px
+}
+.each-btn{
+  background-color: cadetblue;
+    color: white;
+  
+    width: 5rem;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 1rem;
+    border: none;
+}
+.each-btn:hover{
+  cursor: pointer;
+  background-color: darkgreen;
+}
+.parent-btn{
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.custom-btn{
+  background-color: aliceblue;
+  color: cadetblue;
+  
+  width: 5rem;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 1rem;
+
+}
+.second-div-initial{
+ 
+    background-color: cadetblue;
+    padding: 3rem;
+    /* border: 1px solid black; */
+    border-radius: 9px;
+}
+.text{
+  color: white;
+}
+.reset-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+  background: lightseagreen;
+  border: none;
+  margin-top: 2rem;
+}
